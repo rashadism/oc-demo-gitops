@@ -1,0 +1,163 @@
+{
+  "directoryHash": "d5ba680c7fde81b28258260ccbfa5ba56a3046df0a02bd7d756d8d18deb8f1a7",
+  "fileStates": {
+    "flux/gitrepository.yaml": {
+      "modTime": "2026-07-02T04:07:16.955489001Z",
+      "size": 343,
+      "hash": "b54b1706c6a0f01da738ee4d63bafa692125a5b0566acf3fa28f532d571e6e0f"
+    },
+    "flux/kustomization-namespaces.yaml": {
+      "modTime": "2026-07-02T04:07:16.955489001Z",
+      "size": 263,
+      "hash": "de371561567dd7f42ab92d06e5074d9a76c19878bd2a2e09f6b6eb42c0a3e5a0"
+    },
+    "flux/kustomization-platform-shared.yaml": {
+      "modTime": "2026-07-02T04:07:16.955489001Z",
+      "size": 273,
+      "hash": "a00f9286eeccb388a491fb000375cede1044c91f599754773f35c5386ab46db4"
+    },
+    "flux/kustomization-platform.yaml": {
+      "modTime": "2026-07-02T04:07:16.955489001Z",
+      "size": 391,
+      "hash": "cd56a7c6c82f92ebc4f2295b70daf0122278ae315cec993ea20d608d02314cf0"
+    },
+    "flux/kustomization-projects.yaml": {
+      "modTime": "2026-07-02T04:07:16.955489001Z",
+      "size": 350,
+      "hash": "57982fc56dc4d4241bf52bd97a905ad6ee3fa92083114d755a3369b61dbc6096"
+    },
+    "namespaces/default/namespace.yaml": {
+      "modTime": "2026-07-02T04:07:16.955489001Z",
+      "size": 108,
+      "hash": "6193c1921beb6bf28d9a4561e919170e6855b85bbeefe619ce592a0e82546c75"
+    },
+    "namespaces/default/platform/infra/deployment-pipelines/default.yaml": {
+      "modTime": "2026-07-02T04:07:16.9564891Z",
+      "size": 663,
+      "hash": "11bb2b4a5d376441cf2320e0180ff53735b136114dcc69d4ca4bc8875ff7628d"
+    },
+    "namespaces/default/platform/infra/environments/development.yaml": {
+      "modTime": "2026-07-02T04:07:16.9564891Z",
+      "size": 337,
+      "hash": "ca02f38dfd6eb7ffed2d14e431aba9c15e92553ec7f82cb5c2096747ae42c708"
+    },
+    "namespaces/default/platform/infra/environments/production.yaml": {
+      "modTime": "2026-07-02T04:07:16.9564891Z",
+      "size": 354,
+      "hash": "4d8936a11bd5039bbbe874f9018390e61d04691d3180fe0edff8787c7e3b3b42"
+    },
+    "namespaces/default/platform/infra/environments/staging.yaml": {
+      "modTime": "2026-07-02T04:07:16.9564891Z",
+      "size": 321,
+      "hash": "3abc91c7e75d54b957d6ddbe591e24e21f8cd9be71376437446979f65090f9e5"
+    },
+    "namespaces/default/projects/default/components/pwa-hello/component.yaml": {
+      "modTime": "2026-07-02T04:07:16.9564891Z",
+      "size": 835,
+      "hash": "9f8e2267f3d825d3a756f2b7e003e1da91c59cf9a546eece48d523d0b4f6ab51"
+    },
+    "namespaces/default/projects/default/components/pwa-hello/releases/pwa-hello-f9a4adbb.yaml": {
+      "modTime": "2026-07-02T04:07:59.161648159Z",
+      "size": 8585,
+      "hash": "767c2208efd6bf25e349341eff9ea3411106f0c7fe0044e9e180275d0b7b68b2"
+    },
+    "namespaces/default/projects/default/components/pwa-hello/workload.yaml": {
+      "modTime": "2026-07-02T04:07:59.104642542Z",
+      "size": 245,
+      "hash": "3958e73420a0e1785bca827a37af2ebd78f3d9345f2cd23d7ba1a23d1f6cb8f4"
+    },
+    "namespaces/default/projects/default/project.yaml": {
+      "modTime": "2026-07-02T04:07:16.9564891Z",
+      "size": 348,
+      "hash": "729159e49616647a85fccbbd8eef7b90ad17fd5e6852f3e7f4d642236c6f333e"
+    },
+    "namespaces/kustomization.yaml": {
+      "modTime": "2026-07-02T04:07:16.9564891Z",
+      "size": 102,
+      "hash": "851201455f48cbb7a509dab23c610103ef4450a1914934d1938ec45dddef70b9"
+    },
+    "platform-shared/cluster-workflow-templates/argo/bulk-gitops-release-template.yaml": {
+      "modTime": "2026-07-02T04:07:16.957489198Z",
+      "size": 9142,
+      "hash": "40780ce305e15b957200200485ae31ced3f5725c434f2ab7ba3524964b6fd2df"
+    },
+    "platform-shared/cluster-workflow-templates/argo/docker-with-gitops-release-template.yaml": {
+      "modTime": "2026-07-02T04:07:16.957489198Z",
+      "size": 19708,
+      "hash": "660cdcb833fb0a60aa3f76da17c7045b8dce0496de52d3121890acf0f7e9f6c3"
+    },
+    "platform-shared/cluster-workflow-templates/argo/google-cloud-buildpacks-gitops-release-template.yaml": {
+      "modTime": "2026-07-02T04:07:16.957489198Z",
+      "size": 20377,
+      "hash": "800394321b6e9fdce741716e75780637b4296a589b9c1be0b6ad340f202ca586"
+    },
+    "platform-shared/cluster-workflow-templates/argo/react-gitops-release-template.yaml": {
+      "modTime": "2026-07-02T04:07:16.957489198Z",
+      "size": 22952,
+      "hash": "f38173c4311258fb979ecaafc23db6f0edf737d1a24ae6be58af47e09c1d85b7"
+    },
+    "platform-shared/component-types/scheduled-task.yaml": {
+      "modTime": "2026-07-02T04:07:16.957489198Z",
+      "size": 6446,
+      "hash": "b782a4edbfaf7a3c76a3b0a110ee9796d9edde60708f07f72c669228043dcc7d"
+    },
+    "platform-shared/component-types/service.yaml": {
+      "modTime": "2026-07-02T04:07:16.957489198Z",
+      "size": 9715,
+      "hash": "b78d80a71dbb7af7de9361be669b29af2e1d80b2a0de4cf3158275ff7640c227"
+    },
+    "platform-shared/component-types/web-application.yaml": {
+      "modTime": "2026-07-02T04:07:16.958489297Z",
+      "size": 8465,
+      "hash": "4039b44e9816a9bdeded4e79fa8ace6e61cc2fe8a108b87fa5b5f66c26115405"
+    },
+    "platform-shared/component-types/worker.yaml": {
+      "modTime": "2026-07-02T04:07:16.958489297Z",
+      "size": 5544,
+      "hash": "304013995ab57b60e555dca3158699bc6946e0bc1fd92272aef221279614dae2"
+    },
+    "platform-shared/resource-types/nats.yaml": {
+      "modTime": "2026-07-02T04:07:16.958489297Z",
+      "size": 5605,
+      "hash": "1dd9baa154baede3b88564cbfc9354deca66b00295af6b7929ab356cd34f0bbb"
+    },
+    "platform-shared/resource-types/postgres.yaml": {
+      "modTime": "2026-07-02T04:07:16.958489297Z",
+      "size": 10815,
+      "hash": "50f360209c146fca0916278b824e60dcedad6b3c3210714a772007a9ecfad7c0"
+    },
+    "platform-shared/resource-types/valkey.yaml": {
+      "modTime": "2026-07-02T04:07:16.958489297Z",
+      "size": 6735,
+      "hash": "dfe20b182ec77f09cdf9a59db37ae0de8e2c7383de13aff88d6fa90cb63cd4ef"
+    },
+    "platform-shared/traits/observability-alert-rule.yaml": {
+      "modTime": "2026-07-02T04:07:16.958489297Z",
+      "size": 7958,
+      "hash": "f34ab515f91fe6978888ba62dd37a51becc649add2d362c7aa55ca83cfb2f7b7"
+    },
+    "platform-shared/workflows/bulk-gitops-release.yaml": {
+      "modTime": "2026-07-02T04:07:16.958489297Z",
+      "size": 3778,
+      "hash": "a3139d76c96a2db087d331c1a578fc57dd7c96e6f52ee406abbb7d9dbd58e7f1"
+    },
+    "platform-shared/workflows/docker-gitops-release.yaml": {
+      "modTime": "2026-07-02T04:07:16.959489395Z",
+      "size": 5704,
+      "hash": "31c4e53d1ce50d45365f2a3565dd61cf343a5cb685f8d3111e679f772f77db04"
+    },
+    "platform-shared/workflows/google-cloud-buildpacks-gitops-release.yaml": {
+      "modTime": "2026-07-02T04:07:16.959489395Z",
+      "size": 5804,
+      "hash": "0ebacacab4a5d5bcaa315ea8f63d805b94b8623dd479994d726b88ca64419f8b"
+    },
+    "platform-shared/workflows/react-gitops-release.yaml": {
+      "modTime": "2026-07-02T04:07:16.959489395Z",
+      "size": 6062,
+      "hash": "f9037401a453ee3fbb80db8d8a36d9df23d9c953324ea2d1671ec1d6abe49b34"
+    }
+  },
+  "createdAt": "2026-07-02T04:07:59.215180424Z",
+  "lastUsed": "2026-07-02T04:07:59.219436847Z",
+  "resourceCount": 30
+}

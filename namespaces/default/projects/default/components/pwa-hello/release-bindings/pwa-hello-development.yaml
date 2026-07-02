@@ -1,0 +1,11 @@
+apiVersion: openchoreo.dev/v1alpha1
+kind: ReleaseBinding
+metadata:
+  name: pwa-hello-development
+  namespace: default
+spec:
+  environment: development
+  owner:
+    componentName: pwa-hello
+    projectName: default
+  releaseName: pwa-hello-f9a4adbb

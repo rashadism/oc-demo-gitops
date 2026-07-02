@@ -1,0 +1,11 @@
+apiVersion: openchoreo.dev/v1alpha1
+kind: Workload
+metadata:
+  name: pwa-hello-workload
+  namespace: default
+spec:
+  container:
+    image: ttl.sh/default-pwa-hello-image:v1-f9a4adbb
+  owner:
+    componentName: pwa-hello
+    projectName: default
