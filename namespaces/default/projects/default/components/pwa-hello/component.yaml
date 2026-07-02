@@ -24,7 +24,7 @@ spec:
         url: https://github.com/rashadism/pwa-hello
         revision:
           branch: main
-          commit: f9a4adbb68a68fda4487bd8af8720ea4aadf95c2
+          commit: cff23178796a6ed6b128867fbaba2526b1653565
         appPath: /
       docker:
         context: /
