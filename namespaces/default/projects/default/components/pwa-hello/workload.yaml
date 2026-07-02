@@ -1,0 +1,17 @@
+apiVersion: openchoreo.dev/v1alpha1
+kind: Workload
+metadata:
+  name: pwa-hello-workload
+  namespace: default
+spec:
+  container:
+    image: ttl.sh/default-pwa-hello-image:v1-cff23178
+  endpoints:
+    web:
+      port: 80
+      type: HTTP
+      visibility:
+      - external
+  owner:
+    componentName: pwa-hello
+    projectName: default
