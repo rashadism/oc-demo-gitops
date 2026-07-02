@@ -1,0 +1,15 @@
+apiVersion: openchoreo.dev/v1alpha1
+kind: Environment
+metadata:
+  annotations:
+    openchoreo.dev/description: Staging
+    openchoreo.dev/display-name: Staging
+  labels:
+    openchoreo.dev/name: staging
+  name: staging
+  namespace: default
+spec:
+  dataPlaneRef:
+    kind: ClusterDataPlane
+    name: default
+  gateway: {}

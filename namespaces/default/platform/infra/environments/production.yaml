@@ -1,0 +1,16 @@
+apiVersion: openchoreo.dev/v1alpha1
+kind: Environment
+metadata:
+  annotations:
+    openchoreo.dev/description: Production
+    openchoreo.dev/display-name: Production
+  labels:
+    openchoreo.dev/name: production
+  name: production
+  namespace: default
+spec:
+  dataPlaneRef:
+    kind: ClusterDataPlane
+    name: default
+  gateway: {}
+  isProduction: true
