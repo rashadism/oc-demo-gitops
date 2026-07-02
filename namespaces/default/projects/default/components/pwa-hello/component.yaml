@@ -1,0 +1,32 @@
+apiVersion: openchoreo.dev/v1alpha1
+kind: Component
+metadata:
+  name: pwa-hello
+  namespace: default
+  annotations:
+    openchoreo.dev/display-name: Hello PWA
+    openchoreo.dev/description: A simple installable PWA served by nginx
+spec:
+  owner:
+    projectName: default
+  componentType:
+    kind: ClusterComponentType
+    name: deployment/web-application
+  autoBuild: false
+  autoDeploy: true
+  workflow:
+    kind: ClusterWorkflow
+    name: docker-gitops-release
+    parameters:
+      componentName: pwa-hello
+      projectName: default
+      repository:
+        url: https://github.com/rashadism/pwa-hello
+        revision:
+          branch: main
+          commit: f9a4adbb68a68fda4487bd8af8720ea4aadf95c2
+        appPath: /
+      docker:
+        context: /
+        filePath: /Dockerfile
+      workloadDescriptorPath: workload.yaml
