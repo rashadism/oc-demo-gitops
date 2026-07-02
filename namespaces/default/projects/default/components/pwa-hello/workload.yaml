@@ -5,7 +5,7 @@ metadata:
   namespace: default
 spec:
   container:
-    image: ttl.sh/default-pwa-hello-image:v1-cff23178
+    image: ttl.sh/default-pwa-hello-image:v1-e73703bb
   endpoints:
     web:
       port: 80
